@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smoke.testcases.TestCases" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-04-13T11:51:34" hostname="192.168.1.31" time="4.779">
+  <properties/>
+  <testcase name="verifyValidUserCanPurchaseItem" classname="smoke.testcases.TestCases" time="4.779">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=100.0.4896.75)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: '192.168.1.31', ip: 'fe80:0:0:0:10b5:a2c5:15b3:f756%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/4r/5wmwbgvj2ld...}, goog:chromeOptions: {debuggerAddress: localhost:59972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 12931156fb3e373c49b75a2a908c90a8" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: '192.168.1.31', ip: 'fe80:0:0:0:10b5:a2c5:15b3:f756%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/4r/5wmwbgvj2ld...}, goog:chromeOptions: {debuggerAddress: localhost:59972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12931156fb3e373c49b75a2a908c90a8
+	at java.base@17.0.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.1/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.1/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at app//org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at app/jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+	at app//core.component.BaseElement.sendKeys(BaseElement.java:132)
+	at app//smoke.page.HomePage.fillSearchTextInput(HomePage.java:71)
+	at app//smoke.testcases.BaseTestCases.doSearchProduct(BaseTestCases.java:112)
+	at app//smoke.testcases.TestCases.verifyValidUserCanPurchaseItem(TestCases.java:58)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@17.0.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at app//org.testng.TestRunner.run(TestRunner.java:603)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1092)
+	at app//org.testng.TestNG.run(TestNG.java:1060)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 13, 2022 5:21:33 PM core.testcase.BaseTestCase beforeMethod
+INFO: Thread:'verifyValidUserCanPurchaseItem_1' is executing
+Apr 13, 2022 5:21:33 PM core.testcase.BaseTestCase beforeMethod
+INFO: Execution Of Test Case: verifyValidUserCanPurchaseItem has started!
+Apr 13, 2022 5:21:33 PM core.driver.WebDriverFactory getWebDriver
+INFO: Local:Chrome - started!!!
+Apr 13, 2022 5:21:33 PM core.driver.WebDriverFactory getWebDriver
+INFO: Local:Normal:Chrome - started!!!
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 18067
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 13, 2022 5:21:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 13, 2022 5:21:34 PM core.driver.WebDriverFactory getWebDriver
+INFO: Local:Normal:Chrome - ended!!!
+Apr 13, 2022 5:21:34 PM core.driver.WebDriverManager createThreadLocalWebDriver
+INFO: Driver successfully initialized.
+Apr 13, 2022 5:21:34 PM core.driver.WebDriverManager createThreadLocalWebDriver
+INFO: Test execution has started......
+Apr 13, 2022 5:21:39 PM core.testcase.BaseTestCase afterMethod
+INFO: Test Case: smoke.testcases.TestCases_verifyValidUserCanPurchaseItem executed..! and it's: Failed.
+]]></system-err>
+</testsuite>
